@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./script/register.js"> 
+    </script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="./script/register.js"></script>
+    <title>Register</title>
+</head>
+<body>
+    
+    <header>
+        <div id="logo">
+            Logo
+        </div>
+        <div class="mynav"><!--*-->
+            <a href="./index.html">Home</a>
+            <a href="">Untilities</a>
+            <a href="">Share</a>
+            <a href="">Knowledge</a>
+            <a href="./Register.html">SignUp</a>
+            <a href="">SignIn</a>
+            <a href="">AboutUs</a>
+
+        </div>
+    </header>
+    <h2>Register form</h2>
+    <hr width="75%" align="">
+    <section class="regisf">
+    <form class="form-horizontal"  onsubmit="Register();">
+    <div class="form-group">
+            <label class="control-label col-sm-2" for="email">Login name:</label>
+            <div class="col-sm-10">
+              <input type="text" class="form-control" id="idname" placeholder="Enter login name" name="name">
+            </div>
+    </div>
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="email">Email:</label>
+      <div class="col-sm-10">
+        <input type="email" class="form-control" id="idemail" placeholder="Enter email" name="email">
+      </div>
+    </div>
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="pwd">Password:</label>
+      <div class="col-sm-10">          
+        <input type="password" class="form-control" id="idpwd" placeholder="Enter password" name="pwd">
+      </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-sm-2" for="pwd">Confirm Password:</label>
+        <div class="col-sm-10">          
+          <input type="password" class="form-control" id="idrpwd" placeholder="Enter confirm password" name="idrpwd">
+        </div>
+      </div>
+    <div class="form-group">        
+      <div class="col-sm-offset-2 col-sm-10">
+        <button type="submit" class="btn btn-primary " >Register</button>
+        <button type="reset" class="btn btn-default">Reset</button>
+      </div>
+    </div>
+  </form>
+    </section>
+    <footer>
+        &copy;By me. All right reversed
+    </footer>
+</body>
+</html>
