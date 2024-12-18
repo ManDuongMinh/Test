@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./Css/style.css">
+    <title>Dat</title>
+    <script>
+        function check(){
+            var sName = document.getElementById("txtName").value;
+            var sPass = document.getElementById("txtPassword").value;
+
+            if ((sName != "aptech") || (sPass != "123")){
+                alert("Username or Password are incorrect!");
+                document.getElementById("txtName").focus;
+                return false;
+            }
+            alert("Welcome Aptech");
+        }
+    </script>
+    
+</head>
+<body>
+    <header>
+        <div id="logo">
+            Logo
+        </div>
+        <div class="myNav">
+            <table>
+                <tr>
+                    <a href="./Dat.html">Dat</a>
+                    <a href="">Utilities</a>
+                    <a href="">Share</a>
+                    <a href="">Knowledge</a>
+                    <a href="./DatBT.html">DatBT</a>
+                    <a href="">SignIn</a>
+                    <a href="">AbouUs</a>
+                </tr>
+            </table>
+        </div>
+    </header>
+    
+    <section>
+        <div class="divLeft">
+            <img src="./Imgs/Assignment.jpg" width="550">
+        </div>
+        <div class="divRight">
+            <h1>SignIn form</h1>
+            <hr width="40%">
+
+            <form action="" onsubmit="return check()">
+
+                <table class="table1">
+                    <tr>
+                        <td align="right">User name</td>
+                        <td>
+                            <input class="mycontrolLogin" id="txtName" autofocus>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td align="right">Password</td>
+                        <td>
+                            <input class="mycontrolLogin" type="password" id="txtPassword" autofocus>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td></td>
+                        <td align="right" >Already have an account? <a href="./DatBT.html">Sign Up</a></td>
+                    </tr>
+                    
+                    <tr>
+                        <td></td>
+                        <td align="left">
+                            <input  type="submit" value="Login" class="button">
+                        </td>
+                    </tr>
+                </table>
+               
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        &copy;
+    </footer>
+</body>
+
+</html>

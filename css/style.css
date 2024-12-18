@@ -1,0 +1,84 @@
+*{
+    font-family: tahoma;
+    box-sizing: border-box;
+}
+#logo{
+    color: white;
+    font-size: 33pt;
+    font-weight: bold;
+    font-family: Verdana;
+    padding: 20px 10px;
+    text-shadow: 2px 2px #F90;
+}
+.mynav{
+    width: 100%;
+    overflow: auto;
+    border-top: 2px double blue;
+    border-bottom: 2px double blue;
+}
+.mynav a{
+    width: 14.28%;
+    background-color: orange;
+    color: white;
+    text-align: center;
+    font-family: tahoma;
+    font-size: medium;
+    text-decoration: none;
+    display: block;
+    float: left;
+    padding: 20px 20px;
+
+}
+.mynav a:hover{
+    color: red;
+}
+section .hinh{
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h2{
+    text-align: center;
+   
+}
+.sub-Btn{
+    background-color: blue;
+    text-align: center;
+}
+ .form-control{
+    width: 45%;
+    height: 30px;
+}
+body{
+    margin: 0;
+    padding: 0px 20px;
+}
+
+button{
+    width: 50px; height: 30px;
+    
+}
+.sub{
+    background-color: blue;
+}
+select{
+    width: 45%;
+    height: 30px;
+}
+
+
+
+.form-control2{
+    border: 2px thin;
+    outline-style: solid;
+    outline-color: red;
+    width: 45%;
+    height: 30px;
+}
+.search{
+    padding: 20px 10px;
+    float: right;
+}
+.signinf{
+    float: right;
+}
